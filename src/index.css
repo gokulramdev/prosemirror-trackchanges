@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  white-space: pre-wrap !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.ProseMirror {
+  border: 2px solid #00008b;
+  border-radius: 0.25rem;
+  padding: 1rem;
+  outline: none;
+  font-family: Arial;
+  font-weight: 500;
+  font-size: 18px;
+  display: block;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  white-space: break-spaces;
+}
+
+.ProseMirror pre {
+  white-space: pre-wrap;
+}
+
+.ProseMirror P {
+  white-space: pre-wrap;
+}
+.addition {
+  background-color: #e0ffe0;
+}
+
+.deletion {
+  background-color: #ffe0e0;
+  text-decoration: line-through;
+}
+.format {
+  background-color: blueviolet;
+}
